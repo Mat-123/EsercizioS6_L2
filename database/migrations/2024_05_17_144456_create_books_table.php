@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('title', 100);
             $table->string('author', 60);
-            $table->string('short_description', 300);
+            $table->string('short_description', 3000);
             $table->integer('price');
             $table->string('img_url', 300);
             $table->string('publisher');
