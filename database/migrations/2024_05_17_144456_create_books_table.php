@@ -21,7 +21,7 @@ return new class extends Migration
             $table->string('publisher');
             $table->string('edition');
             $table->boolean('e_book');
-            $table->date('publication_time');
+            $table->string('publication_time');
             $table->timestamps();
         });
     }
